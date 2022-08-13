@@ -1,21 +1,22 @@
 {
-    "compilerOptions": {
-        "outDir": "dist",
-        "lib": [
-            "es2020"
-        ],
-        "sourceMap": true,
-        "noImplicitAny": true,
-        "baseUrl": "src"
-    },
-    "watchOptions": {
-        "excludeDirectories": [
-            "node_modules",
-            "dist"
-        ]
-    },
-    "include": [
-        "src/**/*.ts",
-        "test/**/*.ts"
-    ]
+	"compilerOptions": {
+		"outDir": "dist",
+		"lib": [
+			"es2020"
+		],
+		"sourceMap": true,
+		"noImplicitAny": true,
+		"baseUrl": "src",
+		"esModuleInterop": true
+	},
+	"watchOptions": {
+		"excludeDirectories": [
+			"node_modules",
+			"dist"
+		]
+	},
+	"include": [
+		"src/**/*.ts",
+		"test/**/*.ts"
+	]
 }
