@@ -7,7 +7,9 @@
 		"sourceMap": true,
 		"noImplicitAny": true,
 		"baseUrl": "src",
-		"esModuleInterop": true
+		"esModuleInterop": true,
+		"declaration": true,
+		"declarationDir": "dist/types"
 	},
 	"watchOptions": {
 		"excludeDirectories": [
