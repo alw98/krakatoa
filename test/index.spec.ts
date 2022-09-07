@@ -5,6 +5,11 @@ describe('createPalleteFromHex', () => {
 		const pallete = createPalleteFromHex('#ffffff', 10);
 		expect(pallete).toEqual(whitePalleteTenColorsHex);
 	});
+
+	test('generates the correct pallete for #8D2727', () => {
+		const pallete = createPalleteFromHex('#8D2727', 10);
+		expect(pallete).toEqual(prettyRedPalleteHex);
+	});
 });
 
 describe('createPalleteFromRgb', () => {
@@ -25,6 +30,19 @@ const whitePalleteTenColorsHex = [
 	'#b9b9b9',
 	'#d4d4d4',
 	'#f1f1f1',
+];
+
+const prettyRedPalleteHex = [
+	'#270505',
+	'#4b1010',
+	'#701d1d',
+	'#982b2b',
+	'#c13939',
+	'#e55050',
+	'#e88080',
+	'#eda7a7',
+	'#f3cbcb',
+	'#fbeeee',
 ];
 
 const whitePalleteTenColorsRgb = [

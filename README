@@ -1,1 +1,7 @@
 A perceptually uniform palette generator made with HSLuv.
+
+createPalleteFromHex(hex: string, size: number): string[]
+Generate a pallete of colors in hex that are perceptually uniform, given the input color hex.
+
+createPalleteFromRgb(rgb: ColorTuple, size: number): ColorTuple[]
+Generate a pallete of colors in rgb that are perceptually uniform, given the input color rgb.
